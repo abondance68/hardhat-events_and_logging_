@@ -2,6 +2,14 @@
 # Hardhat Events_and_Logs 
 <br>
 
+
+**There are 2 kinds of events params: indexed params called topics and non-indexed params** : <br> 
+
+**Indexed params are much easier to query than the non-indexed params. <br>
+
+** Non-indexed params are harder to search for because they are abi-encoded and so you have to know the abi in ordfer to decode them**<br>
+**Those non-indexed params cost less gas to pump into the logs.**
+
 **This project demonstrates how to work with events in hardhat. In the `deploy_and_store` script, you'll see the output of the events**. 
 
  ## Requirements

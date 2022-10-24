@@ -22,38 +22,35 @@ npx hardhat run scripts/deploy_and_store.js
 
 This will print out the events from our smart contracts. 
 
-## Testnet (Kovan) Deployment
+## Testnet Goerli Deployment
 
-To deploy to a testnet, you'll need.
 
-1. [A Blockchain wallet](https://metamask.io/)
-2. [Testnet Kovan ETH](https://faucets.chain.link/) in your Blockchain Wallet.
-3. [An alchemy RPC URL](https://www.alchemy.com/)
-4. [An Etherscan API Key](https://etherscan.io/apis)
-
-Then, create a `.env` file and add the following lines:
+Create a `.env` file and add the following lines:
 ```
 ETHERSCAN_API_KEY=ABC123ABC123ABC123ABC123ABC123ABC1
-KOVAN_RPC_URL=https://eth-ropsten.alchemyapi.io/v2/<YOUR ALCHEMY KEY>
+GOERLI_RPC_URL=https://eth-goerli.alchemyapi.io/v2/<YOUR ALCHEMY KEY>
 PRIVATE_KEY=YOUR_BLOCKCHAIN_WALLET_PRIVATE_KEY
+
+
+
 ```
+<br> 
 DO NOT PUSH YOUR PRIVATE_KEY TO GITHUB. Please test and develop with a private key that doesn't have any real money in it. 
 
-Follow the [basics tutorial](https://docs.chain.link/docs/beginners-tutorial/) to learn how to get everything setup. 
 
-Then, run:
+**Run:
 
 ```sh
 hh run scripts/deploy_and_store.js --network kovan
 ```
 
-## Testing
+**Testing
 
 ```sh
 npx hardhat test
-```
-
-## Etherscan verification
+``
+`
+**Etherscan verification
 
 Once you've deployed your code, to verify it run:
 

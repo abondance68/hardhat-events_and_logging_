@@ -13,7 +13,7 @@
 
 
 
-## Quickstart
+##Quickstart
 
 Run:
 ```
@@ -38,23 +38,15 @@ PRIVATE_KEY=YOUR_BLOCKCHAIN_WALLET_PRIVATE_KEY
 DO NOT PUSH YOUR PRIVATE_KEY TO GITHUB. Please test and develop with a private key that doesn't have any real money in it. 
 
 
-**Run:
+**Run**:
 
 ```sh
 hh run scripts/deploy_and_store.js --network kovan
 ```
 
-**Testing
+**Testing**
 
-```sh
+
 npx hardhat test
-``
-`
-**Etherscan verification
 
-Once you've deployed your code, to verify it run:
-
-```shell
-npx hardhat verify --network kovan DEPLOYED_CONTRACT_ADDRESS 
-```
 

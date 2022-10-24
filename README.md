@@ -1,4 +1,6 @@
-# Hardhat-events_and_logging_
+
+# Hardhat Events_and_Logs 
+<br>
 
 **This project demonstrates how to work with events in hardhat. In the `deploy_and_store` script, you'll see the output of the events**. 
 
@@ -36,19 +38,18 @@ PRIVATE_KEY=YOUR_BLOCKCHAIN_WALLET_PRIVATE_KEY
 
 
 ```
-<br> 
-DO NOT PUSH YOUR PRIVATE_KEY TO GITHUB. Please test and develop with a private key that doesn't have any real money in it. 
+<br>  
 
 
 **Run**:
 
-```sh
-hh run scripts/deploy_and_store.js --network kovan
-```
 
-**Testing**
+**yarn  run scripts/deploy_and_store.js --network goerli**
 
 
-npx hardhat test
+**Testing**: 
+
+
+**npx hardhat test**
 
 
